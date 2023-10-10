@@ -25,6 +25,7 @@ function App() {
       </header> */}
 
     <div>Sample react app5 for test</div>
+    <button onClick={() => ReactGA.event("test_event_proj5")} >Eventcapture</button>
     </div>
   );
 }
